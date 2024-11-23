@@ -1,0 +1,1 @@
+A full-stack management system app is built using Nodejs, expressjs for the backend. The frontend is built using html, css and javascript.
