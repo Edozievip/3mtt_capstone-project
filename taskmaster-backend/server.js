@@ -68,6 +68,7 @@ app.post('/tasks', async (req, res) => {
     }
 });
 
+// Get Tasks
 app.get('/tasks', async (req, res) => {
     const { token } = req.query;
     // console.log('Received token:', token); 
