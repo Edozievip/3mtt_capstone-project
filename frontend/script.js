@@ -1,15 +1,14 @@
-const API_BASE = 'http://localhost:5000';
+const API_BASE = 'https://taskmaster-lnyd.onrender.com';
 
 const registerForm = document.getElementById('registerForm');
 
 const token = localStorage.getItem('token') || '';
 
-if (!token) {
-    alert('Please login to view this page.');
-    window.location.href = 'login.html';
-}
+// if (!token) {
+//     alert('Please login to view this page.');
+//     window.location.href = 'login.html';
+// }
 
-// let token = '';
 
 // Register User
 registerForm?.addEventListener('submit', async (e) => {
